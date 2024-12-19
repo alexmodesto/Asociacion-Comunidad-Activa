@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolsa de Empleo - Comunidad Activa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Mejoras visuales */
+        main > section {
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 900px;
+        }
+        .bolsa-empleo-intro {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .ofertas, .perfiles {
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 900px;
+        }
+        .empleo-item, .perfil-item {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .empleo-item:hover, .perfil-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .empleo-item h4, .perfil-item h4 {
+            color: #2d4059;
+            margin-bottom: 0.5rem;
+        }
+        .empleo-item p, .perfil-item p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background-color: #6a9e7d;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn i {
+            font-style: normal;
+        }
+        .btn:hover {
+            background-color: #588a6b;
+        }
+        .perfil-item {
+            margin-bottom: 2rem;
+        }
+        footer {
+            text-align: center;
+            background-color: #2d4059;
+            color: #ffffff;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0.5rem 0;
+            line-height: 1.4;
+        }
+        footer a {
+            color: #6a9e7d;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Asociación Comunidad Activa</h1>
+            <p>Tu experiencia, nuestra fuerza para un nuevo comienzo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="bolsa-empleo.html" class="active">Bolsa de Empleo</a></li>
+                <li><a href="talleres.html">Talleres</a></li>
+                <li><a href="redes-apoyo.html">Redes de Apoyo</a></li>
+                <li><a href="perspectiva-medioambiental.html">Perspectiva Medioambiental</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de Bolsa de Empleo -->
+    <main>
+        <section class="bolsa-empleo-intro">
+            <h2>Bolsa de Empleo</h2>
+            <p>Encuentra ofertas laborales adaptadas a tu experiencia y conecta con empresas que valoran tu talento.</p>
+        </section>
+
+        <!-- Ofertas de Empleo -->
+        <section class="ofertas">
+            <h3>Ofertas Disponibles</h3>
+            <div class="empleo-item">
+                <h4>Asistente Administrativo</h4>
+                <p><strong>Empresa:</strong> Soluciones Empresariales S.L.</p>
+                <p><strong>Ubicación:</strong> Barcelona</p>
+                <p><strong>Tipo de Contrato:</strong> Jornada Completa</p>
+                <p><strong>Salario:</strong> 18.000€ - 22.000€ anuales</p>
+                <p><strong>Descripción:</strong> Realización de tareas administrativas, gestión documental y atención telefónica a clientes.</p>
+                <a href="#" class="btn">Postúltate <i>&#10148;</i></a>
+            </div>
+            <div class="empleo-item">
+                <h4>Operario de Almacén</h4>
+                <p><strong>Empresa:</strong> Logística Rápida</p>
+                <p><strong>Ubicación:</strong> Cornellà de Llobregat</p>
+                <p><strong>Tipo de Contrato:</strong> Temporal</p>
+                <p><strong>Salario:</strong> 1.300€/mes</p>
+                <p><strong>Descripción:</strong> Gestión y organización del almacén, carga y descarga de mercancías utilizando carretilla elevadora.</p>
+                <a href="#" class="btn">Postúltate <i>&#10148;</i></a>
+            </div>
+        </section>
+
+        <!-- Perfiles de Trabajadores -->
+        <section class="perfiles">
+            <h3>Perfiles de Trabajadores Disponibles</h3>
+            <div class="perfil-item">
+                <h4>María Fernández</h4>
+                <p><strong>Experiencia:</strong> 20 años en administración y atención al cliente.</p>
+                <p><strong>Habilidades:</strong> Gestión documental, comunicación eficaz y atención personalizada.</p>
+                <p><strong>Disponibilidad:</strong> Inmediata</p>
+                <a href="#" class="btn">Contactar <i>&#9993;</i></a>
+            </div>
+            <div class="perfil-item">
+                <h4>Antonio López</h4>
+                <p><strong>Experiencia:</strong> 15 años en logística y almacén.</p>
+                <p><strong>Habilidades:</strong> Manejo de maquinaria pesada, control de inventarios y gestión de equipos.</p>
+                <p><strong>Disponibilidad:</strong> Dos semanas</p>
+                <a href="#" class="btn">Contactar <i>&#9993;</i></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <h3>Contacto</h3>
+        <p>Centro Cívico de San Ildefonso, Cornellà de Llobregat</p>
+        <p>Correo: <a href="mailto:info@comunidadactiva.org">info@comunidadactiva.org</a></p>
+        <p>Teléfono: +34 900 123 456</p>
+    </footer>
+</body>
+</html>

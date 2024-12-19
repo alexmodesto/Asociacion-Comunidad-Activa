@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perspectiva Medioambiental - Comunidad Activa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        main > section {
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 900px;
+        }
+        .medioambiente-intro {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .medioambiente-item {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .medioambiente-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .medioambiente-item h4 {
+            color: #2d4059;
+            margin-bottom: 0.5rem;
+        }
+        .medioambiente-item p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #6a9e7d;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #588a6b;
+        }
+        footer {
+            text-align: center;
+            background-color: #2d4059;
+            color: #ffffff;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0.5rem 0;
+            line-height: 1.4;
+        }
+        footer a {
+            color: #6a9e7d;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Asociación Comunidad Activa</h1>
+            <p>Tu experiencia, nuestra fuerza para un nuevo comienzo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="bolsa-empleo.html">Bolsa de Empleo</a></li>
+                <li><a href="talleres.html">Talleres</a></li>
+                <li><a href="redes-apoyo.html">Redes de Apoyo</a></li>
+                <li><a href="perspectiva-medioambiental.html" class="active">Perspectiva Medioambiental</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de Perspectiva Medioambiental -->
+    <main>
+        <section class="medioambiente-intro">
+            <h2>Perspectiva Medioambiental</h2>
+            <p>Promovemos la sostenibilidad y el cuidado del entorno a través de iniciativas que conectan bienestar personal y ambiental.</p>
+        </section>
+
+        <!-- Actividades Medioambientales -->
+        <section class="medioambiente">
+            <h3>Actividades Medioambientales</h3>
+            <div class="medioambiente-item">
+                <h4>Jornadas de Reforestación</h4>
+                <p><strong>Fecha:</strong> Sábado 20 de enero, 10:00 - 14:00</p>
+                <p><strong>Ubicación:</strong> Parque Natural de Montjuïc</p>
+                <p><strong>Descripción:</strong> Participa en la plantación de árboles para ayudar a regenerar nuestro entorno natural.</p>
+                <a href="#" class="btn">Inscríbete</a>
+            </div>
+            <div class="medioambiente-item">
+                <h4>Taller de Reciclaje Práctico</h4>
+                <p><strong>Fecha:</strong> Martes 23 de enero, 16:00 - 18:00</p>
+                <p><strong>Ubicación:</strong> Centro Cívico de San Ildefonso</p>
+                <p><strong>Descripción:</strong> Aprende técnicas de reciclaje doméstico para reducir tu huella ecológica de manera efectiva.</p>
+                <a href="#" class="btn">Participa</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <h3>Contacto</h3>
+        <p>Centro Cívico de San Ildefonso, Cornellà de Llobregat</p>
+        <p>Correo: <a href="mailto:info@comunidadactiva.org">info@comunidadactiva.org</a></p>
+        <p>Teléfono: +34 900 123 456</p>
+    </footer>
+</body>
+</html>

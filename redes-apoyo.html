@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes de Apoyo - Comunidad Activa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        main > section {
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 900px;
+        }
+        .redes-intro {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .redes-item {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .redes-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .redes-item h4 {
+            color: #2d4059;
+            margin-bottom: 0.5rem;
+        }
+        .redes-item p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #6a9e7d;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #588a6b;
+        }
+        footer {
+            text-align: center;
+            background-color: #2d4059;
+            color: #ffffff;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0.5rem 0;
+            line-height: 1.4;
+        }
+        footer a {
+            color: #6a9e7d;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Asociación Comunidad Activa</h1>
+            <p>Tu experiencia, nuestra fuerza para un nuevo comienzo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="bolsa-empleo.html">Bolsa de Empleo</a></li>
+                <li><a href="talleres.html">Talleres</a></li>
+                <li><a href="redes-apoyo.html" class="active">Redes de Apoyo</a></li>
+                <li><a href="perspectiva-medioambiental.html">Perspectiva Medioambiental</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de Redes de Apoyo -->
+    <main>
+        <section class="redes-intro">
+            <h2>Redes de Apoyo</h2>
+            <p>Conéctate con personas y recursos que te ayudarán a construir un futuro más sólido. Fomentamos la colaboración y el apoyo mutuo para el bienestar integral de nuestra comunidad.</p>
+        </section>
+
+        <!-- Redes Disponibles -->
+        <section class="redes">
+            <h3>Iniciativas de Apoyo</h3>
+            <div class="redes-item">
+                <h4>Grupos de Encuentro y Reflexión</h4>
+                <p><strong>Descripción:</strong> Espacios seguros para compartir experiencias, inquietudes y crear redes de apoyo emocional.</p>
+                <p><strong>Frecuencia:</strong> Todos los lunes a las 18:00</p>
+                <a href="#" class="btn">Participa</a>
+            </div>
+            <div class="redes-item">
+                <h4>Apoyo Psicosocial</h4>
+                <p><strong>Descripción:</strong> Acceso a profesionales para orientación emocional y herramientas para el bienestar personal.</p>
+                <p><strong>Horario:</strong> Martes y jueves de 16:00 a 18:00</p>
+                <a href="#" class="btn">Solicita Cita</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <h3>Contacto</h3>
+        <p>Centro Cívico de San Ildefonso, Cornellà de Llobregat</p>
+        <p>Correo: <a href="mailto:info@comunidadactiva.org">info@comunidadactiva.org</a></p>
+        <p>Teléfono: +34 900 123 456</p>
+    </footer>
+</body>
+</html>

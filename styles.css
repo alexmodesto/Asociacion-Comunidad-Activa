@@ -1,0 +1,191 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #eaf6f6;
+    scroll-behavior: smooth; /* Scroll suave */
+}
+
+/* Encabezado */
+header {
+    background-color: #2d4059;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header .logo p {
+    margin: 0;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #33415c;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6a9e7d;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #6a9e7d;
+    padding-bottom: 0.2rem;
+}
+
+/* Banner */
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: #2d4059;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2d4059;
+    text-shadow: 1px 1px 2px #ffffff;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #2d4059;
+    text-shadow: 1px 1px 2px #ffffff;
+    animation: fadeIn 1.8s ease-in-out;
+}
+
+.banner .btn {
+    background-color: #6a9e7d;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner .btn:hover {
+    background-color: #588a6b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Secciones principales */
+.section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+    opacity: 1; /* Asegurar que las secciones sean visibles */
+    transform: translateY(0);
+    transition: all 0.8s ease-in-out;
+}
+
+.section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section h3 {
+    font-size: 1.8rem;
+    color: #2d4059;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.section .btn {
+    background-color: #6a9e7d;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section .btn:hover {
+    background-color: #588a6b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos adicionales para página principal */
+.section {
+    margin-bottom: 2rem;
+}
+
+.section .btn {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.section h3 {
+    font-size: 1.8rem;
+    color: #2d4059;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #33415c;
+    color: white;
+}
+
+footer a {
+    color: #6a9e7d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Transiciones suaves */
+a, button {
+    transition: all 0.3s ease;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

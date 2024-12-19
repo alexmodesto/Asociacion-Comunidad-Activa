@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Comunidad Activa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        main > section {
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 900px;
+        }
+        .contacto-intro {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .formulario {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .formulario label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .formulario input,
+        .formulario textarea,
+        .formulario button {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .formulario button {
+            background-color: #6a9e7d;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .formulario button:hover {
+            background-color: #588a6b;
+        }
+        footer {
+            text-align: center;
+            background-color: #2d4059;
+            color: #ffffff;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0.5rem 0;
+            line-height: 1.4;
+        }
+        footer a {
+            color: #6a9e7d;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Asociación Comunidad Activa</h1>
+            <p>Tu experiencia, nuestra fuerza para un nuevo comienzo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="bolsa-empleo.html">Bolsa de Empleo</a></li>
+                <li><a href="talleres.html">Talleres</a></li>
+                <li><a href="redes-apoyo.html">Redes de Apoyo</a></li>
+                <li><a href="perspectiva-medioambiental.html">Perspectiva Medioambiental</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de Contacto -->
+    <main>
+        <section class="contacto-intro">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna duda o sugerencia? Estamos aquí para ayudarte. Rellena el siguiente formulario o utiliza nuestros datos de contacto para comunicarte con nosotros.
+            </p>
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section class="formulario">
+            <form action="gracias_contacto.html" method="get">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <h3>Contacto</h3>
+        <p>Centro Cívico de San Ildefonso, Cornellà de Llobregat</p>
+        <p>Correo: <a href="mailto:info@comunidadactiva.org">info@comunidadactiva.org</a></p>
+        <p>Teléfono: +34 900 123 456</p>
+    </footer>
+</body>
+</html>
